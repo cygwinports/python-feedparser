@@ -1,0 +1,56 @@
+python-feedreader
+------------------------------------------
+Universal Feed Parser is a Python module for downloading and parsing 
+syndicated feeds. It can handle RSS 0.90, Netscape RSS 0.91, Userland 
+RSS 0.91, RSS 0.92, RSS 0.93, RSS 0.94, RSS 1.0, RSS 2.0, Atom 0.3, Atom 
+1.0, and CDF feeds. It also parses several popular extension modules, 
+including Dublin Core and Apple's iTunes extensions.
+
+Runtime requirements:
+  python-2.5.1-1
+
+Build requirements:
+  cygport-0.3.5-1
+  python-2.5.1-3
+
+Canonical website:
+  http://www.feedparser.org/
+
+Canonical download:
+  http://code.google.com/p/feedparser/downloads/list
+
+-------------------------------------------
+
+Build instructions:
+  unpack python-feedreader-4.1-X-src.tar.bz2
+    if you use setup to install this src package, it will be
+	 unpacked under /usr/src automatically
+  cd /usr/src
+  cygport ./python-feedreader-4.1-X.cygport all
+
+This will create:
+  /usr/src/python-feedreader-4.1-X-src.tar.bz2
+  /usr/src/python-feedreader-4.1-X.tar.bz2
+
+-------------------------------------------
+
+Files included in the binary package:
+
+  /usr/lib/python2.5/site-packages/feedparser-4.1-py2.5.egg-info
+  /usr/lib/python2.5/site-packages/feedparser.py
+  /usr/lib/python2.5/site-packages/feedparser.pyc
+  /usr/lib/python2.5/site-packages/feedparser.pyo
+  /usr/share/doc/Cygwin/python-feedparser-4.1.README
+  /usr/share/doc/python-feedparser-4.1/LICENSE
+  /usr/share/doc/python-feedparser-4.1/README
+
+------------------
+
+Port Notes:
+
+----- version 4.1-1 -----
+Initial release for Cygwin.
+
+
+Cygwin port maintained by:
+http://cygwinports.dotsrc.org/
