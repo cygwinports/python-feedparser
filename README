@@ -7,11 +7,11 @@ RSS 0.91, RSS 0.92, RSS 0.93, RSS 0.94, RSS 1.0, RSS 2.0, Atom 0.3, Atom
 including Dublin Core and Apple's iTunes extensions.
 
 Runtime requirements:
-  python-2.5.1-1
+  python-2.5.4-10
 
 Build requirements:
-  cygport-0.3.5-1
-  python-2.5.1-3
+  cygport-0.9.9-1
+  python-2.5.4-10
 
 Canonical website:
   http://www.feedparser.org/
@@ -34,22 +34,10 @@ This will create:
 
 -------------------------------------------
 
-Files included in the binary package:
-
-  /usr/lib/python2.5/site-packages/feedparser-4.1-py2.5.egg-info
-  /usr/lib/python2.5/site-packages/feedparser.py
-  /usr/lib/python2.5/site-packages/feedparser.pyc
-  /usr/lib/python2.5/site-packages/feedparser.pyo
-  /usr/share/doc/Cygwin/python-feedparser-4.1.README
-  /usr/share/doc/python-feedparser-4.1/LICENSE
-  /usr/share/doc/python-feedparser-4.1/README
-
-------------------
-
 Port Notes:
 
------ version 4.1-1 -----
-Initial release for Cygwin.
+----- version 4.1-2 -----
+Initial release for Cygwin 1.7.
 
 
 Cygwin port maintained by:
