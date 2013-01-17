@@ -1,7 +1,0 @@
-ORIG_PN=${PN#python-}
-inherit distutils
-
-DESCRIPTION="Python module for parsing RSS and Atom feeds"
-HOMEPAGE="http://www.feedparser.org/"
-SRC_URI="http://feedparser.googlecode.com/files/${ORIG_PN}-${PV}.zip"
-SRC_DIR=.
